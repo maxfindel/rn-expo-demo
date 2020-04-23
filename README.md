@@ -2,6 +2,8 @@
 
 RN App created with Expo using the Typescript Managed Template deployed in Netlify for testing.
 
+Demo app available here: [https://rn-expo-demo.netlify.app](https://rn-expo-demo.netlify.app).
+
 ## Libraries and packages
 
 * [Expo](https://expo.io/). This App was built with Expo using the TypeScript Managed template.
