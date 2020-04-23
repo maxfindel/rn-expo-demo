@@ -1,0 +1,51 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:web": "expo build:web",
+    "eject": "expo eject",
+    "storybook": "start-storybook -p 7007"
+  },
+  "dependencies": {
+    "@expo/match-media": "^0.0.0-alpha.5",
+    "@react-native-community/masked-view": "0.1.6",
+    "@react-navigation/native": "^5.1.6",
+    "@react-navigation/stack": "^5.2.13",
+    "expo": "~37.0.3",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-paper": "^3.8.0",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-screens": "~2.2.0",
+    "react-native-web": "~0.11.7",
+    "react-responsive": "^8.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-ondevice-actions": "^5.3.18",
+    "@storybook/addon-ondevice-knobs": "^5.3.18",
+    "@storybook/addon-ondevice-notes": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react-native": "^5.3.18",
+    "@storybook/react-native-server": "^5.3.18",
+    "@types/node": "^13.13.1",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "~0.61.17",
+    "@types/react-native-dotenv": "^0.2.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-expo": "~8.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-native-dotenv": "^0.2.0",
+    "typescript": "~3.8.3"
+  },
+  "private": true
+}
