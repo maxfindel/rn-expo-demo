@@ -2,7 +2,6 @@ import React from 'react';
 import '@expo/match-media';
 import { Platform, StatusBar } from 'react-native';
 import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
-import { STORYBOOK_ACTIVE } from 'react-native-dotenv'
 import { Navigation } from './navigation';
 import { StorybookUI } from './storybook/index';
 
@@ -17,7 +16,7 @@ const theme = {
 
 export default function App() {
   // Manually activate Storybook here
-  if (STORYBOOK_ACTIVE === 'true') {
+  if (process.env.STORYBOOK_ACTIVE === 'true') {
     return (
       <StorybookUI />
     )
